@@ -20,21 +20,33 @@
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-> 💠 Designed & Coded with 💎 by TriDiamond <br>
-> 🏗 Vue frontend framework scaffolding. <br>
-> ⚡️ Helping developers to start building vue application with **lightning speed**.
+> Vue frontend framework scaffolding , helping developers to start building vue application with ⚡️ **lightning speed**.
 
 ## Features
 
-- 🏗 Scaffolding:
-  - Scaffolding Vue3 + vue cli project
-  - Scaffolding Vue3 + webpack project
-- 🧬 Template generator (WIP)
-  - Vue component template generation
-  - Vue state template generation
-  - Vue api template generation
-  - Vue page template generation
-- 💠 Project Type scaffolding (WIP)
+- 🏗 **Scaffolding**:
+  - Supported Project Language
+    - Vue 3 with JavaScript
+    - Vue 3 with Typescript
+  - Addon supports
+    - SVG addon
+    - API addon
+    - Auth addon
+- 🧬 **Template generator **(WIP)
+  - Vue **component** template generation
+  - Vue **state** template generation
+    - ✔ Create initial state template
+    - ✔ Create default state template
+    - Adding state (WIP)
+    - Adding mutation (WIP)
+    - Adding action (WIP)
+    - ✔ State management dynamic integration
+  - Vue **api** template generation
+    - ✔ Create initial API file
+    - ✔ Create default API template
+    - ✔ Adding API functions
+  - Vue **page** template generation
+- 💠 **Project Type scaffolding** (WIP)
   - Scaffolding project for admin panel
   - Scaffolding project for eshop
   - Scaffolding project for website
@@ -46,8 +58,7 @@
 First, install [Yeoman](http://yeoman.io) and generator-diamond using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-diamond
+npm install -g yo generator-diamond
 ```
 
 Then generate your new project:
