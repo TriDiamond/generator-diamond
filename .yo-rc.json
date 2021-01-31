@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "TriDiamond",
+      "authorEmail": "tridiamond6@gmail.com",
+      "authorUrl": "https://tridiamond.tech"
+    }
+  }
+}
